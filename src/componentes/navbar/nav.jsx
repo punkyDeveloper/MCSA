@@ -93,8 +93,8 @@ const Header = () => {
               <a href="/Servicios" className="font-medium hover:text-green-400 transition-colors duration-200">
                 Servicios
               </a>
-                <a href="#" className="font-medium hover:text-green-400 transition-colors duration-200">
-                Soluciones
+                <a href="/alquiler-venta" className="font-medium hover:text-green-400 transition-colors duration-200">
+                Alquiler y venta de equipos
               </a>
 
               {/* {menuItems.map((item) => (
@@ -140,7 +140,7 @@ const Header = () => {
             <div className="flex items-center space-x-4">
               <div className="w-12 h-12 flex items-center justify-center">
                 <img 
-                  src="logo.jpg" 
+                  src={Logo}
                   alt="MCSA - Monitoreos y Control Ambiental S.A.S" 
                   className="w-full h-full object-contain"
                 />
@@ -178,11 +178,11 @@ const Header = () => {
               Servicios
             </a>
             <a
-              href="#"
+              href="/alquiler-venta"
               className="block text-white hover:text-green-400 transition-colors font-medium text-lg"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Soluciones
+              Alquiler y venta de equipos
             </a>
 
             {/* {menuItems.map((item) => (
