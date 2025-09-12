@@ -2,6 +2,10 @@ import Nav from '../navbar/nav.jsx';
 import Footer from '../footer/footer.jsx';
 import Portada from '../portada/portadaServicios.jsx';
 import Botnwpp from '../botonwpp/boton.jsx'
+import Calibracion from '../../assets/calibrar.png';
+import Monitoreo from '../../assets/monitoreo.png';
+// import Automatizacion from '../../assets/automatizacion.jpg';
+import Mantenimiento from '../../assets/mantenimiento.png';
 
 const secciones = [
   {
@@ -10,7 +14,7 @@ const secciones = [
       'Aseguramos que tus instrumentos de medición funcionen con la máxima precisión mediante calibraciones trazables y certificadas.',
     detalle:
       'Este proceso es fundamental para industrias que requieren exactitud en la medición, como laboratorios, plantas de producción y servicios técnicos.',
-    imagen: 'RUTA_DE_LA_IMAGEN_1',
+    imagen: Calibracion,
   },
   {
     titulo: 'Monitoreo Ambiental',
@@ -18,7 +22,7 @@ const secciones = [
       'Realizamos mediciones de parámetros ambientales como calidad del aire, ruido y agua, de manera continua o puntual.',
     detalle:
       'Esto permite a las empresas cumplir con normativas ambientales, detectar anomalías y tomar decisiones basadas en datos reales.',
-    imagen: 'RUTA_DE_LA_IMAGEN_2',
+    imagen: Monitoreo,
   },
   {
     titulo: 'Automatización de Procesos',
@@ -34,7 +38,7 @@ const secciones = [
       'Implementamos rutinas de revisión y reparación para evitar fallos inesperados en maquinaria o equipos.',
     detalle:
       'Esto incrementa la vida útil de tus activos, reduce tiempos muertos y mejora la seguridad operativa.',
-    imagen: 'RUTA_DE_LA_IMAGEN_4',
+    imagen: Mantenimiento,
   },
 ];
 
